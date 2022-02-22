@@ -1,0 +1,55 @@
+2022-02-22T13:57:04+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in C:\xampp\htdocs\demo_assignment\wp-content\themes\enfold-child\functions.php:42
+Stack trace:
+#0 C:\xampp\htdocs\demo_assignment\wp-includes\shortcodes.php(356): product_listing('', '', 'product_listing...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\demo_assignment\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_listin...')
+#3 C:\xampp\htdocs\demo_assignment\wp-content\themes\enfold\config-templatebuilder\avia-shortcodes\codeblock\codeblock.php(382): do_shortcode('[product_listin...')
+#4 C:\xampp\htdocs\demo_assignment\wp-includes\class-wp-hook.php(307): avia_sc_codeblock->code_block_extraction('[av_section min...')
+#5 C:\xampp\htdocs\demo_assignment\wp-includes\plugin.php(189): WP_Hook->apply_filters('[av_section min...', Array)
+#6 C:\xampp\htdocs\demo_assignment\wp-content\themes\enfold\template-builder.php(69): apply_filters('avia_builder_pr...', '[av_se in C:\xampp\htdocs\demo_assignment\wp-content\themes\enfold-child\functions.php on line 42
+
+2022-02-22T13:57:09+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in C:\xampp\htdocs\demo_assignment\wp-content\themes\enfold-child\functions.php:42
+Stack trace:
+#0 C:\xampp\htdocs\demo_assignment\wp-includes\shortcodes.php(356): product_listing('', '', 'product_listing...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\demo_assignment\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_listin...')
+#3 C:\xampp\htdocs\demo_assignment\wp-content\themes\enfold\config-templatebuilder\avia-shortcodes\codeblock\codeblock.php(382): do_shortcode('[product_listin...')
+#4 C:\xampp\htdocs\demo_assignment\wp-includes\class-wp-hook.php(307): avia_sc_codeblock->code_block_extraction('[av_section min...')
+#5 C:\xampp\htdocs\demo_assignment\wp-includes\plugin.php(189): WP_Hook->apply_filters('[av_section min...', Array)
+#6 C:\xampp\htdocs\demo_assignment\wp-content\themes\enfold\template-builder.php(69): apply_filters('avia_builder_pr...', '[av_se in C:\xampp\htdocs\demo_assignment\wp-content\themes\enfold-child\functions.php on line 42
+
+2022-02-22T13:57:55+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_the_post_thumbnail_url() in C:\xampp\htdocs\demo_assignment\wp-content\themes\enfold-child\functions.php:46
+Stack trace:
+#0 C:\xampp\htdocs\demo_assignment\wp-includes\shortcodes.php(356): product_listing('', '', 'product_listing...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\demo_assignment\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_listin...')
+#3 C:\xampp\htdocs\demo_assignment\wp-content\themes\enfold\config-templatebuilder\avia-shortcodes\codeblock\codeblock.php(382): do_shortcode('[product_listin...')
+#4 C:\xampp\htdocs\demo_assignment\wp-includes\class-wp-hook.php(307): avia_sc_codeblock->code_block_extraction('[av_section min...')
+#5 C:\xampp\htdocs\demo_assignment\wp-includes\plugin.php(189): WP_Hook->apply_filters('[av_section min...', Array)
+#6 C:\xampp\htdocs\demo_assignment\wp-content\themes\enfold\template-builder.php(69): apply_filters('avia_builder_pr... in C:\xampp\htdocs\demo_assignment\wp-content\themes\enfold-child\functions.php on line 46
+
+2022-02-22T13:58:24+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in C:\xampp\htdocs\demo_assignment\wp-content\themes\enfold-child\functions.php:42
+Stack trace:
+#0 C:\xampp\htdocs\demo_assignment\wp-includes\shortcodes.php(356): product_listing('', '', 'product_listing...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\demo_assignment\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_listin...')
+#3 C:\xampp\htdocs\demo_assignment\wp-content\themes\enfold\config-templatebuilder\avia-shortcodes\codeblock\codeblock.php(382): do_shortcode('[product_listin...')
+#4 C:\xampp\htdocs\demo_assignment\wp-includes\class-wp-hook.php(307): avia_sc_codeblock->code_block_extraction('[av_section min...')
+#5 C:\xampp\htdocs\demo_assignment\wp-includes\plugin.php(189): WP_Hook->apply_filters('[av_section min...', Array)
+#6 C:\xampp\htdocs\demo_assignment\wp-content\themes\enfold\template-builder.php(69): apply_filters('avia_builder_pr...', '[av_se in C:\xampp\htdocs\demo_assignment\wp-content\themes\enfold-child\functions.php on line 42
+
+2022-02-22T14:02:07+00:00 CRITICAL syntax error, unexpected '$image' (T_VARIABLE) in C:\xampp\htdocs\demo_assignment\wp-content\themes\enfold-child\functions.php on line 38
+
+2022-02-22T18:35:20+00:00 CRITICAL Uncaught Error: Call to undefined method DateTime::format() in C:\wamp64\www\demo_assignment\wp-includes\functions.php:50
+Stack trace:
+#0 C:\wamp64\www\demo_assignment\wp-includes\class-wp-query.php(4426): mysql2date('d.m.y', '2022-02-21 14:0...', false)
+#1 C:\wamp64\www\demo_assignment\wp-includes\class-wp-query.php(4375): WP_Query->generate_postdata(Object(WP_Post))
+#2 C:\wamp64\www\demo_assignment\wp-includes\class-wp-query.php(3407): WP_Query->setup_postdata(Object(WP_Post))
+#3 C:\wamp64\www\demo_assignment\wp-includes\query.php(979): WP_Query->the_post()
+#4 C:\wamp64\www\demo_assignment\wp-content\themes\enfold\template-builder.php(29): the_post()
+#5 C:\wamp64\www\demo_assignment\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\d...')
+#6 C:\wamp64\www\demo_assignment\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\d...')
+#7 C:\wamp64\www\demo_assignment\index.php(17): require('C:\\wamp64\\www\\d...')
+#8 {main}
+  thrown in C:\wamp64\www\demo_assignment\wp-includes\functions.php on line 50
+

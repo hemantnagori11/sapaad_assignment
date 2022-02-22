@@ -1,0 +1,167 @@
+
+@font-face { 
+     font-family: 'poppins-1';
+     src:    url('http://localhost/demo_assignment/wp-content/uploads/avia_fonts/type_fonts/poppins-1/poppins-black.ttf') format('truetype');
+     font-style:  normal;
+     font-weight: 900;
+     font-display: auto;
+}
+@font-face { 
+     font-family: 'poppins-1';
+     src:    url('http://localhost/demo_assignment/wp-content/uploads/avia_fonts/type_fonts/poppins-1/poppins-blackitalic.ttf') format('truetype');
+     font-style:  italic;
+     font-weight: 900;
+     font-display: auto;
+}
+@font-face { 
+     font-family: 'poppins-1';
+     src:    url('http://localhost/demo_assignment/wp-content/uploads/avia_fonts/type_fonts/poppins-1/poppins-bold.ttf') format('truetype');
+     font-style:  normal;
+     font-weight: 700;
+     font-display: auto;
+}
+@font-face { 
+     font-family: 'poppins-1';
+     src:    url('http://localhost/demo_assignment/wp-content/uploads/avia_fonts/type_fonts/poppins-1/poppins-bolditalic.ttf') format('truetype');
+     font-style:  italic;
+     font-weight: 700;
+     font-display: auto;
+}
+@font-face { 
+     font-family: 'poppins-1';
+     src:    url('http://localhost/demo_assignment/wp-content/uploads/avia_fonts/type_fonts/poppins-1/poppins-extrabold.ttf') format('truetype');
+     font-style:  normal;
+     font-weight: 800;
+     font-display: auto;
+}
+@font-face { 
+     font-family: 'poppins-1';
+     src:    url('http://localhost/demo_assignment/wp-content/uploads/avia_fonts/type_fonts/poppins-1/poppins-extrabolditalic.ttf') format('truetype');
+     font-style:  italic;
+     font-weight: 800;
+     font-display: auto;
+}
+@font-face { 
+     font-family: 'poppins-1';
+     src:    url('http://localhost/demo_assignment/wp-content/uploads/avia_fonts/type_fonts/poppins-1/poppins-extralight.ttf') format('truetype');
+     font-style:  normal;
+     font-weight: 200;
+     font-display: auto;
+}
+@font-face { 
+     font-family: 'poppins-1';
+     src:    url('http://localhost/demo_assignment/wp-content/uploads/avia_fonts/type_fonts/poppins-1/poppins-extralightitalic.ttf') format('truetype');
+     font-style:  italic;
+     font-weight: 200;
+     font-display: auto;
+}
+@font-face { 
+     font-family: 'poppins-1';
+     src:    url('http://localhost/demo_assignment/wp-content/uploads/avia_fonts/type_fonts/poppins-1/poppins-italic.ttf') format('truetype');
+     font-style:  italic;
+     font-weight: 400;
+     font-display: auto;
+}
+@font-face { 
+     font-family: 'poppins-1';
+     src:    url('http://localhost/demo_assignment/wp-content/uploads/avia_fonts/type_fonts/poppins-1/poppins-light.ttf') format('truetype');
+     font-style:  normal;
+     font-weight: 300;
+     font-display: auto;
+}
+@font-face { 
+     font-family: 'poppins-1';
+     src:    url('http://localhost/demo_assignment/wp-content/uploads/avia_fonts/type_fonts/poppins-1/poppins-lightitalic.ttf') format('truetype');
+     font-style:  italic;
+     font-weight: 300;
+     font-display: auto;
+}
+@font-face { 
+     font-family: 'poppins-1';
+     src:    url('http://localhost/demo_assignment/wp-content/uploads/avia_fonts/type_fonts/poppins-1/poppins-medium.ttf') format('truetype');
+     font-style:  normal;
+     font-weight: 500;
+     font-display: auto;
+}
+@font-face { 
+     font-family: 'poppins-1';
+     src:    url('http://localhost/demo_assignment/wp-content/uploads/avia_fonts/type_fonts/poppins-1/poppins-mediumitalic.ttf') format('truetype');
+     font-style:  italic;
+     font-weight: 500;
+     font-display: auto;
+}
+@font-face { 
+     font-family: 'poppins-1';
+     src:    url('http://localhost/demo_assignment/wp-content/uploads/avia_fonts/type_fonts/poppins-1/poppins-regular.ttf') format('truetype');
+     font-style:  normal;
+     font-weight: 400;
+     font-display: auto;
+}
+@font-face { 
+     font-family: 'poppins-1';
+     src:    url('http://localhost/demo_assignment/wp-content/uploads/avia_fonts/type_fonts/poppins-1/poppins-semibold.ttf') format('truetype');
+     font-style:  normal;
+     font-weight: 600;
+     font-display: auto;
+}
+@font-face { 
+     font-family: 'poppins-1';
+     src:    url('http://localhost/demo_assignment/wp-content/uploads/avia_fonts/type_fonts/poppins-1/poppins-semibolditalic.ttf') format('truetype');
+     font-style:  italic;
+     font-weight: 600;
+     font-display: auto;
+}
+@font-face { 
+     font-family: 'poppins-1';
+     src:    url('http://localhost/demo_assignment/wp-content/uploads/avia_fonts/type_fonts/poppins-1/poppins-thin.ttf') format('truetype');
+     font-style:  normal;
+     font-weight: 100;
+     font-display: auto;
+}
+@font-face { 
+     font-family: 'poppins-1';
+     src:    url('http://localhost/demo_assignment/wp-content/uploads/avia_fonts/type_fonts/poppins-1/poppins-thinitalic.ttf') format('truetype');
+     font-style:  italic;
+     font-weight: 100;
+     font-display: auto;
+}
+
+
+.editor-block-list__block,
+.editor-block-list__block p {background-color:#ffffff; color:#000000;}
+.editor-block-list__block h1,
+.editor-block-list__block h2,
+.editor-block-list__block h3,
+.editor-block-list__block h4,
+.editor-block-list__block h5,
+.editor-block-list__block h6 {color:#000000;}
+.editor-post-title__block textarea {color:#000000; background-color:#ffffff;}
+.editor-block-list__block a,
+.editor-block-list__block strong,
+.editor-block-list__block b,
+.editor-block-list__block b a,
+.editor-block-list__block strong a {color:#ef3b74;}
+.editor-block-list__block .wp-block-heading,
+.editor-post-title__block textarea,
+.wc-block-featured-product__wrapper h2,
+.wc-block-featured-category__wrapper h2 {font-family:'poppins-1', Helvetica, Arial, sans-serif;}
+.editor-block-list__block,
+.wc-block-all-reviews div,
+.wc-block-reviews-by-category div,
+.wc-block-featured-product__wrapper,
+.wc-block-grid ul,
+.wc-block-product-categories ul,
+.wc-block-product-categories div {font-family:'poppins-1', Helvetica, Arial, sans-serif;}
+.wc-block-grid .wc-block-grid__product-title,
+.wc-block-grid .wc-block-grid__product-price {color: #ef3b74;}
+.wc-block-grid .wc-block-grid__product-price del {color: #969696;}
+.wc-block-grid .wp-block-button a,
+.wc-block-featured-product__wrapper .wp-block-button .wp-block-button__link,
+.wc-block-featured-category__wrapper .wp-block-button .wp-block-button__link,
+.wc-block-load-more .wp-block-button__link {background-color: #ef3b74; color: #ffffff; border-color: #cd1952;}
+.wc-block-featured-product__wrapper .wp-block-button.is-style-outline .wp-block-button__link,
+.wc-block-featured-category__wrapper .wp-block-button.is-style-outline .wp-block-button__link {background-color: transparent;}
+.wc-block-grid .wp-block-button a:hover,
+.wc-block-featured-product__wrapper .wp-block-button .wp-block-button__link:hover,
+.wc-block-featured-category__wrapper .wp-block-button .wp-block-button__link:hover,
+.wc-block-load-more .wp-block-button__link:hover {background-color: #ef3b74; color: #ffffff; border-color: #cd1952;}
